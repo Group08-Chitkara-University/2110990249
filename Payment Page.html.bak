@@ -1,0 +1,191 @@
+<!doctype>
+<head>
+<title>Payment Transaction</title>
+<link rel="stylesheet" href="Payment Page.css">
+<script src="https://kit.fontawesome.com/679330b327.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="world">
+	<div class="header">
+	<div class="backlink">
+	<a class="back" href="C:\Users\Acer\Desktop\STUDY CHITKARA\Flight Form\FlightProject.html">
+		<div class="dev">
+			<div class="one">
+				<i class="fas fa-chevron-left"></i>
+			</div>
+			<div class="two">
+				Back
+			</div>
+		</div>
+	</a>
+	</div>
+		<div class="changeform">
+			<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="ramaja()">Credit/Debit Card</button>
+			<button type="button" class="toggle-btn" onclick="sitaaja()">Net-Banking</button>
+		</div>
+	</div>
+<!--------------------------------------------------------------------------------->
+<div class="ok">
+	<div class="main">
+		<div id="ram" class="portal">
+			<div class="head">
+				<div class="text">
+				Credit/Debit Card</div>
+				<div class="logos">
+				<i class="far fa-credit-card"></i>
+				<i class="fab fa-cc-visa"></i>
+				<i class="fab fa-cc-paypal"></i>
+				<i class="fab fa-cc-mastercard"></i>
+				</div>
+			</div>
+			<div class="formbox">
+				<form>
+				<div class="bankname">
+					<label id="one">Bank Name</label>
+					<select class="banks">
+					<option value="1">SBI (State Bank of India)<div class="opt a"></div></option>
+					<option value="2">HDFC Bank<div class="opt b"></div></option>
+					<option value="3">Yes Bank<div class="opt c"></div></option>
+					<option value="4">Punjab National Bank<div class="opt d"></div></option>
+					<option value="5">Canara Bank<div class="opt e"></div></option>
+					<option value="6">Axis Bank<div class="opt f"></div></option>
+					<option value="7">Indian Overseas Bank<div class="opt g"></div></option>
+					<option value="8">ICICI Bank<div class="opt h"></div></option>
+					<option value="9">Kotak Mahindra Bank<div class="opt i"></div></option>
+					<option value="10">IDFC First Bank<div class="opt j"></div></option>
+					</select>
+				</div>
+				<div class="rows">
+				<div class="rowone">
+				<div class="play">
+				<label id="two">Card Number</label>
+				<input type="number" class="cardno" placeholder="0000 0000 0000 0000" min="100000000000" max="10000000000000" required>
+				</div>
+				<div class="play q">
+				<label id="three">Date of Expiry</label>
+				<input type="text" class="date" placeholder="MM/YYYY" required>
+				</div>
+				</div>
+				<div class="rowtwo">
+				<div class="play">
+				<label id="four">Card Holder Name</label>
+				<input type="text" class="cardname" placeholder="Full Name" required>
+				</div>
+				<div class="play w">
+				<label id="five">CVV</label>
+				<input type="password" class="cvv" placeholder="***" required>
+				</div>
+				</div>
+				</div>
+				<div class="foot">
+					<div class="userthing">
+						<i class="fas fa-user-circle"></i>
+						<div class="info">
+						<div class="user name">Archit Vohra</div>
+						<div class="user id">archit0249.be21@chitkara.edu.in</div>
+						</div>
+					</div>
+					<div class="payset">
+					<div class="payfull">
+						<a class="paytag" href="#">
+							<div class="pay">	
+								PAY
+							</div>
+						</a>
+					</div>
+					</div>
+				</div>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	<div class="main">
+		<div id="sita" class="portal">
+			<div class="head">
+				<div class="text">
+				Net-Banking</div>
+			</div>
+			<div class="formbox">
+			<form>
+				<div class="bankname">
+					<label id="one">Bank Name</label>
+					<select class="banks">
+					<option value="1">SBI (State Bank of India)<div class="opt a"></div></option>
+					<option value="2">HDFC Bank<div class="opt b"></div></option>
+					<option value="3">Yes Bank<div class="opt c"></div></option>
+					<option value="4">Punjab National Bank<div class="opt d"></div></option>
+					<option value="5">Canara Bank<div class="opt e"></div></option>
+					<option value="6">Axis Bank<div class="opt f"></div></option>
+					<option value="7">Indian Overseas Bank<div class="opt g"></div></option>
+					<option value="8">ICICI Bank<div class="opt h"></div></option>
+					<option value="9">Kotak Mahindra Bank<div class="opt i"></div></option>
+					<option value="10">IDFC First Bank<div class="opt j"></div></option>
+					</select>
+				</div>
+				<div class="netbank">
+				<div class="netuser">
+				<label class="netlabel">User-ID</label>
+				<input id="seven" type="text" placeholder="Netbanking ID">
+				</div>
+				<div class="netpass">
+				<label class="netlabel">Password</label>
+				<input id="eight" type="password" placeholder="*********">
+				</div>
+				</div>
+			</form>
+			</div>
+				<div class="foot dusra">
+					<div class="userthing">
+						<i class="fas fa-user-circle"></i>
+						<div class="info">
+						<div class="user name">Abhinav Mittal Sigma</div>
+						<div class="user id">abhinav==sigma++++++</div>
+						</div>
+					</div>
+					<div class="payset">
+					<div class="payfull">
+						<a class="paytag" href="#">
+							<div class="pay">	
+								PAY
+							</div>
+						</a>
+					</div>
+					</div>
+				</div>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="moving">
+	<div class="moving-bg">
+	
+	</div>
+</div>	
+<div class="last"><br>
+*All rights reserved.
+<br>
+** All transactions are completely safe, no user information is leaked in the process.
+</div>
+</div>
+<script type="text/javascript">
+var x = document.getElementById("ram");
+var y = document.getElementById("sita");
+var z = document.getElementById("btn");
+
+function sitaaja(){
+	y.style.left="-1333px";
+	x.style.display="none";
+	z.style.left="207px";
+}
+function ramaja(){
+	y.style.left="0px";
+	x.style.display="inline-block";
+	z.style.left="0px";
+}
+</script>
+</body>
+</html>

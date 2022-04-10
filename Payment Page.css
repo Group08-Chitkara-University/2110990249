@@ -1,0 +1,309 @@
+*{
+	font-family: sans-serif;
+}
+
+.header{
+	height: 110px;
+	width: 101.5%;
+	background-color: grey;
+	border-radius: 0px 0px 20px 20px;
+	z-index:1;
+	transform: translate(-10px,-10px);
+	background-color:#323639;
+}
+.backlink{
+	width: 200px;
+	height: 55px;
+	position: relative;
+	top: 20px;
+}
+.dev{
+	height:80px;
+	width: 200px;
+	display: flex;
+}
+.one{
+	height: 60px;
+	width: 50px;
+	position: relative;
+	left: 20px;
+}
+a{
+	z-index: 2;
+	width: auto;
+}
+a:link{
+	color: #f0f0f0;
+	text-decoration: none;
+}
+a:visited{
+	color: #f0f0f0;
+	text-decoration: none;
+}
+.two{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	width: 150px;
+	font-size: 3rem;
+	font-family: sans-serif;
+	text-align: center ;
+	color: #f0f0f0;
+}
+.fas{
+	color: #f0f0f0;
+	font-size: 55px;
+}
+.main{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat;
+}
+.portal{
+	height: 487px;
+	width: 55%;
+	border: 0.5px solid grey;
+	border-radius: 10px;
+	position: relative;
+	top: 10%;
+	box-sizing: border-box;
+	background-color: white;
+	transition: 0.5s;
+}
+.head{
+	height: 50px;
+	width: 100%;
+	background-color: #191f25;
+	border-radius: 10px;
+}
+.text{
+	position: relative;
+	font-size: 2.1rem;
+	font-family: sans-serif;
+	top: 6px;
+	left: 4px;
+	color: lightgrey;
+}
+.formbox{
+	height: 450px;
+	width: 100%;
+}
+label{
+	font-size: 1.5rem;
+}
+
+.play{
+	display: flex;
+	flex-direction: column;
+}
+.rows{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.rowone{
+	margin-top: 5%;
+	width: 40%;
+}
+.rowtwo{
+	margin-top: 5%;
+	width: 40%;
+}
+.play{
+	margin: 10%;
+}
+input{
+	height: 35px;
+	border: 0.5px grey solid;
+	border-radius: 5px;
+	margin-top: 5%;
+}
+.bankname{
+	transform: translate(9%,100%);
+}
+.banks{
+	transform: translate(15%,-8%);
+	width:200px;
+	height: 35px;
+}
+.opt{
+	background-color: green;
+	font-size: 2rem;
+}
+.logos{
+	display: flex;
+	width: 33%;
+	height: 100%;
+	position: relative;
+	top: 75%;
+	left: 65%;
+	align-items: center;
+	justify-content: space-between;
+}
+.fa-credit-card,.fa-cc-visa,.fa-cc-paypal,.fa-cc-mastercard{
+	font-size: 2.5rem;
+}
+.fa-credit-card{
+	color: #82c91e;
+}
+.fa-cc-visa{
+	color: #4c6ef5;
+}
+.fa-cc-paypal{
+	color: #15aabf;
+}
+.fa-cc-mastercard{
+	color: #be4bdb;
+}
+.foot{
+	background-color: #000509;
+	height: 126px;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+}
+.userthing{
+	width: 60%;
+	display: flex;
+}
+.info{
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+.user{
+	font-family: sans-serif;
+	color: #e8e8ff;
+}
+.payset{
+	width: 40%;
+}
+.fa-user-circle{
+	font-size: 8rem;
+	position: relative;
+	left: 15px;
+	top: -20px;
+	color:#d9d9db;
+}
+.payfull{
+	height: 50px;
+	width: 100px;
+	position: relative;
+	left: 130px;
+	top: 40px;
+	border-radius: 5px;
+}
+.paytag{
+	width: 100%;
+	height: 100%;
+}
+.pay{
+	width: 100px;
+	height: 50px;
+	background-color: #2ac54e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	border-radius: 5px;	
+}
+.moving{
+	position: relative;
+	top: -900px;
+	height: 1%;
+	width: 100%;
+	z-index: -1;
+}
+.moving .moving-bg{
+	box-sizing: border-box;
+	position: absolute;
+	height: 15000%;
+	width: 200%;
+	background-image: url("Untitled.png");
+	background-size: 4000px 875px;
+	background-repeat: no-repeat;
+	animation: moving 30s linear infinite;
+	
+}
+@keyframes moving{
+	from{
+		transform: translateX(-1357px);
+	}
+	to{
+		transform: translateX(0px);
+	}
+}
+.ok{
+	display: flex;
+	width: 200%;
+}
+
+.last{
+	height: 80px;
+	width: 100%;
+	background-color: #2f3136;
+	position: absolute;
+	top: 775px;
+	color:#a6a6a6;
+	border-radius: 10px 10px 0px 0px;
+}
+.changeform{
+	width: 400px;
+	height: 60px;
+	margin: 35px auto;
+	position: relative;
+	top: -65px;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.toggle-btn{
+	height: 60px;
+	width: 48%;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	border-radius: 30px;
+	color: white;
+	font-size:1.6rem;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width:48%;
+	height: 60px;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border-radius: 30px;
+	transition: 0.5s;
+}
+.dusra{
+	position: relative;
+	top: -141px;
+}
+.netbank{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 30px;
+	left: 65px;
+}
+.netuser,.netpass{
+	margin:0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#seven,#eight{
+	width: 30%;
+}
+.netlabel,.netpass{
+	position: relative;
+	top: 10px;
+}
