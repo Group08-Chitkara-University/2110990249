@@ -1,0 +1,85 @@
+<!doctype html>
+	<head>
+		<title> Flights </title>
+		<link rel="stylesheet" href="FlightProject.css">
+		
+	</head>
+	<body>
+	<div id="preloader">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8tPnX7OPo0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="world">
+		<div class="header"><nav>
+		<a href="#"><img src="D:\project file\IMAGES\logo.jpg"></a>
+                  <div class="nav-links">
+                  	<ul>
+                  		<li><a href="#">HOME</a></li>
+                  		<li><a href="#destination">Destination</a></li>
+                  		<li><a href="#travel">Transport</a></li>
+                  		<li><a href="D:\project file\files\login.html">Account</a></li>
+                  		<li><a href="">About</a></li>
+                  	</ul>
+                  </div></nav>
+		</div>
+		<div class="main">
+		<div class="booking-form-box">
+			<div class="radio-btn">
+				<input type="radio" class="btn" name="check" checked="checked"><span>Round Trip</span>
+				<input type="radio" class="btn" name="check"><span>One Way</span>
+				<input type="radio" class="btn" name="check"><span>Multi-city</span>
+			</div>
+			<div class="booking-form">
+				<div class="input-grp">
+					<label>Flying From</label>
+					<input type="text" class="form-control" id="one" placeholder="City/Airport" required>
+				</div>
+				<div class="input-grp">
+					<label>Flying To</label>
+					<input type="text" class="form-control" id="two" placeholder="City/Airport" required>
+				</div>
+				<div class="input-grp">
+					<label>Departing</label>
+					<input type="date" class="form-control select-date" id="three" required>
+				</div>
+				<div class="input-grp">
+					<label>Returning</label>
+					<input type="date" class="form-control select-date" id="four" required>
+				</div>
+				<div class="input-grp">
+					<label>Adults</label>
+					<input type="number" class="form-control" value="1" min="1" id="five" required>
+				</div>
+				<div class="input-grp">
+					<label>Children</label>
+					<input type="number" class="form-control" value="0" min="0" id="six">
+				</div>
+				<div class="input-grp">
+					<label>Travel Class</label><br>
+					<select class="custom-select" id="seven">
+					<option value="1">Economy Class</option>
+					<option value="2">Business Class</option>
+					</select>
+				</div>
+				<div class="input-grp">
+					<button type="submit" class="btn-primary">
+					Show Flights</button>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var loader = document.getElementById("preloader");
+		window.addEventListener("load", function(){
+			loader.style.display = "none";
+		})
+	</script>
+</body>
+</html>
